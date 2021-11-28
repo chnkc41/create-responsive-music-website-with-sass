@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework2 - Responsive Landing Page </title>
+    
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  
+</head>
+<body> 
+    <!-- HEADER -->
+    <header id="header">
+        <nav class="nav">
+            <a href="#" class="nav__logo">Logo<span>Area</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Top5</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Library</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i> 
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HOME --> 
+        <section class="home">
+            <h1 class="home__title"> NEVER <br>  STOP <br> LISTENING </h1>
+            
+            <div class="home__play">
+                <div class="home__play-text">Click Here to Listen</div>
+                <a href="#" class="home__play-icon">
+                    <i class="bx bx-play-circle bx-lg" id="song-icon"></i>
+                </a>
+            </div>
+        </section>
+ 
+    </main>
+
+    
+    <div class="social-media">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class='bx bxl-youtube'></i>
+        </a> 
+        
+        <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class='bx bxl-instagram'></i>
+        </a> 
+
+        <a href="#" target="_blank" rel="noopener noreferrer">
+            <i class='bx bxl-twitter'></i>
+        </a> 
+        
+    </div>
+
+    <audio id="mySong">
+        <source src="assets/media/song.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- MAIN JS;-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+/* Base Css */
+*,
+::before,
+::after {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $body-font;
+  font-size: var(--normal-font-size);
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  /* color: #fff; */
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

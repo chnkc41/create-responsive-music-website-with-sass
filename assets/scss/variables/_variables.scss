@@ -1,0 +1,28 @@
+/*=============== Varibles ===============*/
+
+/********** Colors **********/
+$first-color: #ffb3b2;
+$white-color: #fff;
+$dark-color: #121212;
+$white-color-text: #fff8f8;
+
+/********** Fonts **********/
+$body-font: 'Roboto', sans-serif;
+
+/********** Z-index **********/
+$z-index: 100;
+
+
+:root {  
+    --bigger-font-size: 2.25rem; /* 1 rem 16px */
+    --big-font-size: 1.5rem;
+    --normal-font-size: 0.813rem;  
+}
+  
+@media screen and (min-width: 768px) {
+:root {
+    --bigger-font-size: 4.5rem;
+    --big-font-size: 1.75rem;
+    --normal-font-size: 1rem;
+}
+}
