@@ -17,7 +17,7 @@
 
 
  ### Screenshots
- ![Desktop](/screenshot_1.png)
- ![Mobile-1](/screenshot_2.png)
- ![Mobile-2](/screenshot_2.png)
+ ![Desktop](/Screenshot_1.png)
+ ![Mobile-1](/Screenshot_2.png)
+ ![Mobile-2](/Screenshot_2.png)
 
