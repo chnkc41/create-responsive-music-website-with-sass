@@ -15,7 +15,7 @@
 > [https://github.com/chnkc41/css3](https://github.com/chnkc41/css3)
 
  ### Screenshots
- ![Desktop](/screenshot_1.png)
- ![Mobile-1](/screenshot_2.png)
- ![Mobile-2](/screenshot_3.png)
+ ![Desktop](/Screenshot_1.png)
+ ![Mobile-1](/Screenshot_2.png)
+ ![Mobile-2](/Screenshot_3.png)
 
